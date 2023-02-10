@@ -10,7 +10,7 @@ document.querySelector('form[action=""]').addEventListener("submit", function(ev
       window.location.href='pop-up.html'
     } else {
         alert("You don't have an account Please sign-up")
-      window.location.href = '/signup.html';
+      window.location.href = 'signup.html';
     }
   });
   
