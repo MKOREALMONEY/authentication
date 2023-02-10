@@ -7,10 +7,10 @@ document.querySelector('form[action=""]').addEventListener("submit", function(ev
     const user = storedUsers.find(user => user.username === username && user.password === password);
     if (user) {
       // alert("You have logged in successfully");
-      window.location.href='pop-up.html'
+      window.location='pop-up.html'
     } else {
         alert("You don't have an account Please sign-up")
-      window.location.href = 'signup.html';
+      window.location = 'signup.html';
     }
   });
   
